@@ -8,7 +8,7 @@ Formulario de la practica vista en clase
 	- fr0zt3r
 	- mozta
 	- ReneALZ
-2. Grupo 2
+2. Grampa 
 	- chexfor
 	- tuxn3t
 	- clau8989
