@@ -1,0 +1,34 @@
+<html>
+<head>
+	<title>Formulario de Ejemplo</title>
+	</head>
+<body>
+<form id="contact_form" action="enviado.php" method="POST" enctype="multipart/form-data">
+ 	<legend>Formulario de Ejemplo</legend>
+	<div class="row">
+		<label for="name">Tu nombre:</label><br />
+		<input id="nombre" class="input" name="nombre" type="text" value="" size="30" /><br />
+	</div>
+	<div class="row">
+		<label for="apellido">Tu apellido:</label><br />
+		<input id="apellido" class="input" name="apellido" type="text" value="" size="30" /><br />
+	</div>
+	<div class="row">
+	
+		<label for="edad">Tu edad:</label><br />
+		<input id="edad" class="input" name="edad" type="text" value="" size="30" /><br/>
+	</div>
+	<div class="row">
+		<label for="matricula">Tu matricula:</label><br />
+		<input id="matricula" class="input" name="matricula" type="text" value="" size="30" /><br />
+	</div>
+	<div class="row">
+		<label for="archivo01">Tu archivo:</label><br />
+		<input id="archivo01" class="input" name="archivo" type="text" value="" size="30" /><br />
+	</div>
+	<input id="archivo02" name="archivo" type="text" />
+	<input id="enviar" name="enviar" 	type="submit" value="Enviar" />
+	<input id="submit_button" type="submit" value="Send email" />
+</form>
+</body>				
+</html>
