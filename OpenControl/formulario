@@ -29,6 +29,25 @@
 	<input id="archivo02" name="archivo" type="text" />
 	<input id="enviar" name="enviar" 	type="submit" value="Enviar" />
 	<input id="submit_button" type="submit" value="Send email" />
+
+<!-- Select Basic -->
+   
+<div class="form-group"> 
+  <label class="col-md-4 control-label">Carrera</label>
+    <div class="col-md-4 selectContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+    <select name="Carrera" class="form-control selectpicker" >
+      <option value=" " >Selecciona la carrera</option>
+      <option>Ingenieria en ciencias de la computacion</option>
+      <option>Licenciatura en ciencias de la computacion</option>
+      <option >Ingenieria en tecnologias de la informacion</option>
+      </select>
+  </div>
+</div>
+</div>
+
+<!--fin select -->
 </form>
 </body>				
 </html>
