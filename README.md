@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Formulario para la rama Calidad 
+=======
+# Formulario de RENE
+>>>>>>> Rene
 Formulario de la practica vista en clase
 
 # Grupos
@@ -34,3 +38,4 @@ Formulario de la practica vista en clase
 # Recordatorio
  -Meldak
  - Tuxn3t tienen broncas con su llave
+
