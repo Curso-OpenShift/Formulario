@@ -26,11 +26,8 @@ Formulario de la practica vista en clase
 	- RafaelHuesca
 	- RafaNotario
 	- rulas182
-<<<<<<< HEAD
 	- Wozgeass
-=======
-        -Quien es quien?
->>>>>>> e02e7af18c754316c8da35f7a08be20dcab6fc24
+
 # Recordatorio
  -Meldak
  - Tuxn3t tienen broncas con su llave
