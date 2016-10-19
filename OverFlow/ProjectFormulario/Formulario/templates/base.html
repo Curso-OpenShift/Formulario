@@ -1,0 +1,41 @@
+ {% load staticfiles %}
+ <!DOCTYPE html>
+  <html>
+    <head>
+      <title>{% block title %} {% endblock title %} </title>
+      <!--Import Google Icon Font-->
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href='{% static "formulario/css/materialize.min.css" %}'  media="screen,projection"/>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+      <!--Import jQuery before materialize.js-->
+      <!-- Header -->
+      <header>
+        <nav class="top-nav cyan darken-4">
+          <div class="container">
+            <div class="nav-wrapper">
+              <a class="page-title"> {% block header %} {% endblock header %} </a>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <!-- Conteiner Body -->
+      <main class="grey lighten-2">
+        <div class="container">
+          <div class="row">
+          <br>
+                <!-- Page Content goes here -->
+                {% block content %}{% endblock content %}
+          </div>
+        </div>
+      </main>
+
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="{% static 'formulario/js/materialize.min.js' %}"></script>
+    </body>
+  </html>
