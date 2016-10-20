@@ -15,12 +15,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <style>
-    body {
-        padding-top: 70px;
-        /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
-    }
-    </style>
+    <link rel="stylesheet" type="text/css" href="css/mystyle.css"> 
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -44,19 +39,16 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Start Bootstrap</a>
+                <a class="navbar-brand" href="index.html">OpenShift</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="#">About</a>
+                        <a href="#">Inicio</a>
                     </li>
                     <li>
-                        <a href="#">Services</a>
-                    </li>
-                    <li>
-                        <a href="#">Contact</a>
+                        <a href="#">Log in</a>
                     </li>
                 </ul>
             </div>
@@ -66,23 +58,27 @@
     </nav>
 
     <!-- Page Content -->
-    <div class="container">
-
-        <div class="row">
-            <div class="col-xs-6 col-md-5 text-center">
-                <article>
-                    <div class="input-group">
-                      <span class="input-group-addon" id="basic-addon1">
-                          <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
-                      </span>
-                      <input type="text" class="form-control" placeholder="Nombre" aria-describedby="basic-addon1">
-                    </div>
-                </article>
-            </div>
-        </div>
-        <!-- /.row -->
-
-    </div>
+<div class="jumbotron col-md-offset-4 col-md-4">
+    <img id="imagen" src="https://s3.amazonaws.com/media-p.slid.es/uploads/306889/images/2203653/openshift-no-text.png" alt="OpenShift-image" class="center-block img-responsive img-circle imagen">
+    <h3 class="text-center">BIENVENIDO</h3>
+    <h3 class="text-center"><small>Grupo OpenShift</small></h3>
+<form class="form-inline">
+  <div class="form-group">
+    <label class="sr-only" for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+  </div>
+  <div class="form-group">
+    <label class="sr-only" for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+  <div class="form-group">
+    <h4 class="help-block"><small> <a href="formulario.html">Regisrarme</a></small></h4>
+  </div>
+  <div >
+  <button type="submit" class="btn btn-primary btn-lg ">Entrar</button>      
+  </div>
+</form>
+</div>
     <!-- /.container -->
 
     <!-- jQuery Version 1.11.1 -->

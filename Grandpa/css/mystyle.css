@@ -1,0 +1,15 @@
+body {
+        padding-top: 5%;
+        /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    }
+
+.imagen{
+	margin-top: -50px;
+	margin-bottom: 20px;
+	width: 50%;
+}
+.input-group{
+	padding-inline-end: 10%;
+	padding-inline-start: 10%;
+	margin-bottom: 2%;
+}
