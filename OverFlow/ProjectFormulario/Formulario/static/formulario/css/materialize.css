@@ -3434,17 +3434,22 @@ input[type=range] + .thumb {
 .section {
   padding-top: 1rem;
   padding-bottom: 1rem;
+  height: 100%
+  background-color: red;
 }
 
 .section.no-pad {
+  height: 100%
   padding: 0;
 }
 
 .section.no-pad-bot {
+  height: 100%
   padding-bottom: 0;
 }
 
 .section.no-pad-top {
+  height: 100%
   padding-top: 0;
 }
 
