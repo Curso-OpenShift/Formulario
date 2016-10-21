@@ -24,14 +24,14 @@
                 <div class="file-field input-field">
                   <div class="btn">
                    <span>Archivo</span>
-                   <input id="archivo" name="archivo" type="file" />
+                   <input id="files" name="files" type="file" />
                   </div>
                   <div class="file-path-wrapper">
                     <input class="file-path validate" type="text" placeholder="Sube tu archivo">
                   </div>
                 </div>
 
-                <button class="btn waves-effect waves-light" type="submit" name="action">Enviar
+                <button class="btn waves-effect waves-light" type="submit">Enviar
                   <i class="material-icons right">send</i>
                 </button>
               </form>
@@ -47,6 +47,7 @@
                       <th data-field="edad">Edad</th>
                       <th data-field="matricula">Matricula</th>
                       <th data-field="carrera">Carrera</th>
+                      {#<th data-field="archivo">Archivo</th>#}
                   </tr>
                 </thead>
 
@@ -58,6 +59,7 @@
                     <td>{{alumno.edad}}</td>
                     <td>{{alumno.matricula}}</td>
                     <td>{{alumno.carrera}}</td>
+                    {#<td>{{alumno.archivo}}</td>#}
                   </tr>
                  {% endfor %}
                 </tbody>
