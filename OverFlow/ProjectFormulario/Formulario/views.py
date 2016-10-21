@@ -11,13 +11,13 @@ def principal(request):
 		matricula = request.POST.get('matricula')
 		carrera = request.POST.get('carrera')
 		archivo = request.POST.get('files')
-		alumno = Alumno(file_field=request.FILES[archivo])
+		alumno = Alumno()
 		alumno.nombre = name
 		alumno.apellido = apellido
 		alumno.edad = edad
 		alumno.matricula = matricula
 		alumno.carrera = carrera
-		
+		#Falta campo de archivo
 		alumno.save()
 		
 	bd = Alumno.objects.order_by('nombre')
