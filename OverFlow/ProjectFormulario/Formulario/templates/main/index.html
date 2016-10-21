@@ -4,7 +4,7 @@
                 <!-- Page Content goes here -->
             {% block content %}
             <div class="section">
-              <form method="post">
+              <form action="" method="post" enctype="multipart/form-data">
                 {% csrf_token %}
                  <label>Nombre: &nbsp;</label>
                  <input id="nombre" name="nombre" type="text" />
@@ -47,7 +47,7 @@
                       <th data-field="edad">Edad</th>
                       <th data-field="matricula">Matricula</th>
                       <th data-field="carrera">Carrera</th>
-                      {#<th data-field="archivo">Archivo</th>#}
+                      <th data-field="archivo">Archivo</th>
                   </tr>
                 </thead>
 
@@ -59,7 +59,7 @@
                     <td>{{alumno.edad}}</td>
                     <td>{{alumno.matricula}}</td>
                     <td>{{alumno.carrera}}</td>
-                    {#<td>{{alumno.archivo}}</td>#}
+                    <td>{{alumno.archivo}}</td>
                   </tr>
                  {% endfor %}
                 </tbody>

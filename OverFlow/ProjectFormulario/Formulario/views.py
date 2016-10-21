@@ -10,15 +10,18 @@ def principal(request):
 		edad = request.POST.get('edad')
 		matricula = request.POST.get('matricula')
 		carrera = request.POST.get('carrera')
-		archivo = request.POST.get('files')
+		archivo = request.FILES['files']
+		print "@@@@@@@@@@@@@@@@@@@@@@@@"
+		print type(archivo)
 		alumno = Alumno()
 		alumno.nombre = name
 		alumno.apellido = apellido
 		alumno.edad = edad
 		alumno.matricula = matricula
 		alumno.carrera = carrera
+		alumno.archivo = archivo
 		#Falta campo de archivo
-		alumno.save()
+		#alumno.save()
 		
 	bd = Alumno.objects.order_by('nombre')
 	contex = {'alumnos': bd}

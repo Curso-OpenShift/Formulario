@@ -9,7 +9,7 @@ class Alumno(models.Model):
 	edad = models.IntegerField()
 	matricula = models.IntegerField()
 	carrera = models.CharField(max_length=25)
-	archivo = models.FileField(upload_to='archivosform', null= True)
+	archivo = models.FileField(upload_to='archivosform', null= True, blank=True)
 	def __str__(self):
 		return self.nombre
 
