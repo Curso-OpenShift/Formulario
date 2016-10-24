@@ -21,7 +21,7 @@ $cursor = $colección->find();
 
 // recorrer el resultado
 foreach ($cursor as $documento) {
-    echo $documento["title"] . "\n";
+    echo $documento["nombre"] . "\n";
 }
 
 ?>
